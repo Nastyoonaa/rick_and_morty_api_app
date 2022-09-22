@@ -14,9 +14,5 @@
 
 ## Screenshots
 
-<p align="center">
-  <img src="screenshots/rm1.jpeg" width="300" alt="Rick And Morty App">
-  <img src="screenshots/rm2.jpeg" width="300" alt="Rick And Morty App">
-
 
 
