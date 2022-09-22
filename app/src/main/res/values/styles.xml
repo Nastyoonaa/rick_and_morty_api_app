@@ -1,0 +1,32 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="LinearProgress" parent="Theme.MaterialComponents.Light">
+        <item name="colorAccent">@color/colorBlue</item>
+    </style>
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/lightGrey</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogRight</item>
+    </style>
+    <style name="ActionSheetDialogRight" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/dialog_filter_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_filter_out</item>
+    </style>
+    <style name="SearchStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:background">@color/inactiveGrey</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+</resources>
